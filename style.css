@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Press+Start+2P&display=swap');
+body{
+    margin: 10px;
+    padding: 0px;
+    background-color: #333;
+    color: #00aa00;
+    font-family: "Electrolize", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.terminal{
+    border: 3px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: #1d1c1c;
+    padding: 0;
+ 
+}
+
+.terminal_nav{
+    height: 26px;
+    font-size: 9pt;
+    background-color: #1d1c1c;
+    position: relative;
+  
+}
+
+h2{
+    padding: 0px 10px ;
+    margin: 0;
+}
+
+span {
+    margin: 10px 0px;
+}
+
+.terminal_text{
+    padding: 5px;
+    background-color: #000;
+    font-size: 5pt;
+    font-family: "Press Start 2P", serif;
+    min-height: 500px;
+}
+
+button{
+    color: #1d1c1c;
+    background-color: #00aa00;
+    border-radius: 100px;
+    width: 40px;
+    border-color: #0000;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#password{
+    background-color: #0000;
+    border: 0;
+    caret-color: #00aa00;
+    color: #00aa00;
+    font-size: 5pt;
+    font-family: "Press Start 2P", serif;
+}
+#password:focus{
+    outline: none;
+}
